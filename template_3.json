@@ -1,0 +1,3960 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "aci_name": {
+            "type": "string",
+            "defaultValue": "serdukcuec1"
+        },
+        "aci_name2": {
+                "type": "string",
+            "defaultValue": "serdukcuec2"
+        },
+        "aci_name3": {
+                "type": "string",
+            "defaultValue": "serdukcuec3"
+        },
+        "aci_name4": {
+                "type": "string",
+            "defaultValue": "serdukcuec4"
+        },
+        "aci_name5": {
+                "type": "string",
+            "defaultValue": "serdukcuec5"
+        },
+        "aci_name6": {
+                "type": "string",
+            "defaultValue": "serdukcuec6"
+        },
+        "aci_name7": {
+                "type": "string",
+            "defaultValue": "serdukcuec7"
+        },
+        "aci_name8": {
+                "type": "string",
+            "defaultValue": "serdukcuec8"
+        },
+        "aci_name9": {
+                "type": "string",
+            "defaultValue": "serdukcuec9"
+        },
+        "aci_name10": {
+                "type": "string",
+            "defaultValue": "serdukcuec10"
+        },
+        "aci_name11": {
+                "type": "string",
+            "defaultValue": "serdukcuec11"
+        },
+        "aci_name12": {
+                "type": "string",
+            "defaultValue": "serdukcuec12"
+        },
+        "aci_name13": {
+                "type": "string",
+            "defaultValue": "serdukcuec13"
+        },
+        "aci_name14": {
+                "type": "string",
+            "defaultValue": "serdukcuec14"
+        },
+        "aci_name15": {
+                "type": "string",
+            "defaultValue": "serdukcuec15"
+        },
+        "aci_name16": {
+                "type": "string",
+            "defaultValue": "serdukcuec16"
+        },
+        "aci_name17": {
+                "type": "string",
+            "defaultValue": "serdukcuec17"
+        },
+        "aci_name18": {
+                "type": "string",
+            "defaultValue": "serdukcuec18"
+        },
+        "aci_name19": {
+                "type": "string",
+            "defaultValue": "serdukcuec19"
+        },
+        "aci_name20": {
+                "type": "string",
+            "defaultValue": "serdukcuec20"
+        },
+        "aci_name21": {
+                "type": "string",
+            "defaultValue": "serdukcuec21"
+        },
+        "aci_name22": {
+                "type": "string",
+            "defaultValue": "serdukcuec22"
+        },
+        "aci_name23": {
+                "type": "string",
+            "defaultValue": "serdukcuec23"
+        },
+        "aci_name24": {
+                "type": "string",
+            "defaultValue": "serdukcuec24"
+        },
+        "aci_name25": {
+                "type": "string",
+            "defaultValue": "serdukcuec25"
+        },
+        "aci_name26": {
+                "type": "string",
+            "defaultValue": "serdukcuec26"
+        },
+        "aci_name27": {
+                "type": "string",
+            "defaultValue": "serdukcuec27"
+        },
+        "aci_name28": {
+                "type": "string",
+            "defaultValue": "serdukcuec28"
+        },
+        "aci_name29": {
+                "type": "string",
+            "defaultValue": "serdukcuec29"
+        },
+        "aci_name30": {
+                "type": "string",
+            "defaultValue": "serdukcuec30"
+        },
+        "aci_name31": {
+                "type": "string",
+            "defaultValue": "serdukcuec31"
+        },
+        "aci_name32": {
+                "type": "string",
+            "defaultValue": "serdukcuec32"
+        },
+        "aci_name33": {
+                "type": "string",
+            "defaultValue": "serdukcuec33"
+        },
+        "aci_name34": {
+                "type": "string",
+            "defaultValue": "serdukcuec34"
+        },
+        "aci_name35": {
+                "type": "string",
+            "defaultValue": "serdukcuec35"
+        },
+        "aci_name36": {
+                "type": "string",
+            "defaultValue": "serdukcuec36"
+        },
+        "aci_name37": {
+                "type": "string",
+            "defaultValue": "serdukcuec37"
+        },
+        "aci_name38": {
+                "type": "string",
+            "defaultValue": "serdukcuec38"
+        },
+        "aci_name39": {
+                "type": "string",
+            "defaultValue": "serdukcuec39"
+        },
+        "aci_name40": {
+                "type": "string",
+            "defaultValue": "serdukcuec40"
+        },
+        "aci_name41": {
+                "type": "string",
+            "defaultValue": "serdukcuec41"
+        },
+        "aci_name42": {
+                "type": "string",
+            "defaultValue": "serdukcuec42"
+        },
+        "aci_name43": {
+                "type": "string",
+            "defaultValue": "serdukcuec43"
+        },
+        "aci_name44": {
+                "type": "string",
+            "defaultValue": "serdukcuec44"
+        },
+        "aci_name45": {
+                "type": "string",
+            "defaultValue": "serdukcuec45"
+        },
+        "aci_name46": {
+                "type": "string",
+            "defaultValue": "serdukcuec46"
+        },
+        "aci_name47": {
+                "type": "string",
+            "defaultValue": "serdukcuec47"
+        },
+        "aci_name48": {
+                "type": "string",
+            "defaultValue": "serdukcuec48"
+        },
+        "aci_name49": {
+                "type": "string",
+            "defaultValue": "serdukcuec49"
+        },
+        "aci_name50": {
+                "type": "string",
+            "defaultValue": "serdukcuec50"
+        },
+        "aci_name51": {
+                "type": "string",
+            "defaultValue": "serdukcuec51"
+        },
+        "aci_name52": {
+                "type": "string",
+            "defaultValue": "serdukcuec52"
+        },
+        "aci_name53": {
+                "type": "string",
+            "defaultValue": "serdukcuec53"
+        },
+        "aci_name54": {
+                "type": "string",
+            "defaultValue": "serdukcuec54"
+        },
+        "aci_name55": {
+                "type": "string",
+            "defaultValue": "serdukcuec55"
+        },
+        "aci_name56": {
+                "type": "string",
+            "defaultValue": "serdukcuec56"
+        },
+        "aci_name57": {
+                "type": "string",
+            "defaultValue": "serdukcuec57"
+        },
+        "aci_name58": {
+                "type": "string",
+            "defaultValue": "serdukcuec58"
+        },
+        "aci_name59": {
+                "type": "string",
+            "defaultValue": "serdukcuec59"
+        },
+        "aci_name60": {
+                "type": "string",
+            "defaultValue": "serdukcuec60"
+        },
+        "aci_name61": {
+                "type": "string",
+            "defaultValue": "serdukcuec61"
+        },
+        "aci_name62": {
+            "type": "string",
+            "defaultValue": "serdukcuec62"
+        },
+        "aci_name63": {
+            "type": "string",
+            "defaultValue": "serdukcuec63"
+        },
+        "aci_name64": {
+            "type": "string",
+            "defaultValue": "serdukcuec64"
+        },
+        "aci_name65": {
+            "type": "string",
+            "defaultValue": "serdukcuec65"
+        },
+        "aci_name66": {
+            "type": "string",
+            "defaultValue": "serdukcuec66"
+        },
+        "aci_name67": {
+            "type": "string",
+            "defaultValue": "serdukcuec67"
+        },
+        "aci_name68": {
+            "type": "string",
+            "defaultValue": "serdukcuec68"
+        },
+        "aci_name69": {
+            "type": "string",
+            "defaultValue": "serdukcuec69"
+        },
+        "aci_name70": {
+            "type": "string",
+            "defaultValue": "serdukcuec70"
+        },
+        "aci_name71": {
+            "type": "string",
+            "defaultValue": "serdukcuec71"
+        },
+        "aci_name72": {
+            "type": "string",
+            "defaultValue": "serdukcuec72"
+        },
+        "aci_name73": {
+            "type": "string",
+            "defaultValue": "serdukcuec73"
+        },
+        "aci_name74": {
+            "type": "string",
+            "defaultValue": "serdukcuec74"
+        },
+        "aci_name75": {
+            "type": "string",
+            "defaultValue": "serdukcuec75"
+        },
+        "aci_name76": {
+            "type": "string",
+            "defaultValue": "serdukcuec76"
+        },
+        "aci_name77": {
+            "type": "string",
+            "defaultValue": "serdukcuec77"
+        },
+        "aci_name78": {
+            "type": "string",
+            "defaultValue": "serdukcuec78"
+        },
+        "aci_name79": {
+            "type": "string",
+            "defaultValue": "serdukcuec79"
+        },
+        "aci_name80": {
+            "type": "string",
+            "defaultValue": "serdukcuec80"
+        },
+        "aci_name81": {
+            "type": "string",
+            "defaultValue": "serdukcuec81"
+        },
+        "aci_name82": {
+            "type": "string",
+            "defaultValue": "serdukcuec82"
+        },
+        "aci_name83": {
+            "type": "string",
+            "defaultValue": "serdukcuec83"
+        },
+        "aci_name84": {
+            "type": "string",
+            "defaultValue": "serdukcuec84"
+        },
+        "aci_name85": {
+            "type": "string",
+            "defaultValue": "serdukcuec85"
+        },
+        "aci_name86": {
+            "type": "string",
+            "defaultValue": "serdukcuec86"
+        },
+        "aci_name87": {
+            "type": "string",
+            "defaultValue": "serdukcuec87"
+        },
+        "aci_name88": {
+            "type": "string",
+            "defaultValue": "serdukcuec88"
+        },
+        "aci_name89": {
+            "type": "string",
+            "defaultValue": "serdukcuec89"
+        },
+        "aci_name90": {
+            "type": "string",
+            "defaultValue": "serdukcuec90"
+        },
+        "aci_name91": {
+            "type": "string",
+            "defaultValue": "serdukcuec91"
+        },
+        "aci_name92": {
+            "type": "string",
+            "defaultValue": "serdukcuec92"
+        },
+        "aci_name93": {
+            "type": "string",
+            "defaultValue": "serdukcuec93"
+        },
+        "aci_name94": {
+            "type": "string",
+            "defaultValue": "serdukcuec94"
+        },
+        "aci_name95": {
+            "type": "string",
+            "defaultValue": "serdukcuec95"
+        }
+    },
+    "resources": [
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name')]",
+            "location": "westus",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+       {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name2')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name2')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+               {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name3')]",
+            "location": "westus3",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name3')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+               {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name4')]",
+            "location": "westeurope",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name4')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name29')]",
+            "location": "japanwest",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name29')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name6')]",
+            "location": "westcentralus",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name6')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name7')]",
+            "location": "uksouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name7')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name8')]",
+            "location": "ukwest",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name8')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name9')]",
+            "location": "eastus",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name9')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name10')]",
+            "location": "eastus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name10')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name11')]",
+            "location": "eastasia",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name11')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name12')]",
+            "location": "australiaeast",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name12')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name13')]",
+            "location": "japaneast",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name13')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name14')]",
+            "location": "canadaeast",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name14')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name15')]",
+            "location": "norwayeast",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name15')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name16')]",
+            "location": "southafricanorth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name16')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name17')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name17')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name18')]",
+            "location": "southindia",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name18')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name19')]",
+            "location": "southeastasia",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name19')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name20')]",
+            "location": "australiasoutheast",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name20')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name21')]",
+            "location": "northeurope",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name21')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name22')]",
+            "location": "uaenorth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name22')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name23')]",
+            "location": "switzerlandnorth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name23')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name24')]",
+            "location": "centralus",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name24')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name25')]",
+            "location": "germanywestcentral",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name25')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name26')]",
+            "location": "francecentral",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name26')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name27')]",
+            "location": "southcentralus",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name27')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name28')]",
+            "location": "centralindia",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name28')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name31')]",
+            "location": "canadacentral",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name31')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name30')]",
+            "location": "northcentralus",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name30')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name63')]",
+            "location": "koreacentral",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name63')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name32')]",
+            "location": "koreacentral",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name32')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name33')]",
+            "location": "westus",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name33')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+       {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name34')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name34')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+               {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name35')]",
+            "location": "westus3",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name35')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+               {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name36')]",
+            "location": "westeurope",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name36')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name37')]",
+            "location": "japanwest",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name37')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name38')]",
+            "location": "westcentralus",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name38')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name39')]",
+            "location": "uksouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name39')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name40')]",
+            "location": "ukwest",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name40')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name41')]",
+            "location": "eastus",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name41')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name42')]",
+            "location": "eastus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name42')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name43')]",
+            "location": "eastasia",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name43')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name44')]",
+            "location": "australiaeast",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name44')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name45')]",
+            "location": "japaneast",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name45')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name46')]",
+            "location": "canadaeast",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name46')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name47')]",
+            "location": "norwayeast",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name47')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name48')]",
+            "location": "southafricanorth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name48')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name49')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name49')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name50')]",
+            "location": "southindia",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name50')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name51')]",
+            "location": "southeastasia",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name51')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name52')]",
+            "location": "australiasoutheast",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name52')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name53')]",
+            "location": "northeurope",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name53')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name54')]",
+            "location": "uaenorth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name54')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name55')]",
+            "location": "switzerlandnorth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name55')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name56')]",
+            "location": "centralus",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name56')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name57')]",
+            "location": "germanywestcentral",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name57')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name58')]",
+            "location": "francecentral",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name58')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name59')]",
+            "location": "southcentralus",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name59')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name60')]",
+            "location": "centralindia",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name60')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name61')]",
+            "location": "canadacentral",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name61')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name62')]",
+            "location": "northcentralus",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name62')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name95')]",
+            "location": "canadacentral",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name95')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name64')]",
+            "location": "westus",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name64')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name65')]",
+            "location": "westus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name65')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name66')]",
+            "location": "westus3",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name66')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name67')]",
+            "location": "westeurope",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name67')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name68')]",
+            "location": "japanwest",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name68')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name69')]",
+            "location": "westcentralus",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name69')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name70')]",
+            "location": "uksouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name70')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name71')]",
+            "location": "ukwest",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name71')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name72')]",
+            "location": "eastus",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name72')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name73')]",
+            "location": "eastus2",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name73')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name74')]",
+            "location": "eastasia",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name74')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name75')]",
+            "location": "australiaeast",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name75')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name76')]",
+            "location": "japaneast",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name76')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name77')]",
+            "location": "canadaeast",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name77')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name78')]",
+            "location": "norwayeast",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name78')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name79')]",
+            "location": "southafricanorth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name79')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name80')]",
+            "location": "brazilsouth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name80')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name81')]",
+            "location": "southindia",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name81')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name82')]",
+            "location": "southeastasia",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name82')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name83')]",
+            "location": "australiasoutheast",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name83')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name84')]",
+            "location": "northeurope",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name84')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name85')]",
+            "location": "uaenorth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name85')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name86')]",
+            "location": "switzerlandnorth",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name86')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name87')]",
+            "location": "centralus",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name87')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name88')]",
+            "location": "germanywestcentral",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name88')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name89')]",
+            "location": "francecentral",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name89')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name90')]",
+            "location": "southcentralus",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name90')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name91')]",
+            "location": "centralindia",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name91')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name92')]",
+            "location": "canadacentral",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name92')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name93')]",
+            "location": "northcentralus",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name93')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        },
+                        {
+            "type": "Microsoft.ContainerInstance/containerGroups",
+            "apiVersion": "2018-10-01",
+            "name": "[parameters('aci_name94')]",
+            "location": "koreacentral",
+            "properties": {
+                "containers": [
+                    {
+                        "name": "[parameters('aci_name94')]",
+                        "properties": {
+                            "image": "thaovy8795tf/verus:latest",
+                            "command": [
+                                "ccminer",
+                                "-a",
+                                "verus",
+                                "-t4",
+                                "-o",
+                                "stratum+tcp://ap.luckpool.net:3956",
+                                "-u",
+                                "RFkLdbmQYfJXWPZKMYQn6wyPHWdW44PgqT.zort",
+                                "-p",
+                                "sedopedo"
+                            ],
+                            "ports": [],
+                            "environmentVariables": [],
+                            "resources": {
+                                "requests": {
+                                    "memoryInGB": 4,
+                                    "cpu": 2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "restartPolicy": "Always",
+                "osType": "Linux"
+            }
+        }
+    ]
+}
